@@ -19,6 +19,31 @@ You’ll start by editing this README file to learn how to edit a file in Bitbuc
 
 ---
 
+## Project Information
+
+Team Name: OH-PM: The Librarian Assistant
+Project Name: Librarian Assistant
+Project Description: 
+You will be developing a librarian assistant that helps a librarian manage common library-management 
+tasks, including user registration, book search, placing hold on a book, checking out a book, and 
+returning a book, etc. You may need to use a database of book information to support this application.
+Users can also browse the books in the library and look into the details about each book selected. 
+The user interface could be a desktop application or a website portal. 
+
+Project Members  |  eecs Email					|   wsuEmail
+Osman Bakari	 |	obakari@eecs.wsu.edu		|	osman.bakari@wsu.edu
+Paul Dibble		 |	pdibble@eecs.wsu.edu 		|	paul.dibble@wsu.edu
+Marco Arceo		 |	marceo@eecs.wsu.edu			|	marco.arceo@wsu.edu
+Hermes Obiang	 |	hasumuob@eecs.wsu.edu 		|	h.asumuobiang@wsu.edu
+
+TA contact: 
+Name: Xiaoqin Fu
+Email: xiaoqin.fu@wsu.edu
+
+Professor Contact:
+Name: Haipeng Cai
+Email: haipeng.cai@wsu.edu
+
 ## Create a file
 
 Next, you’ll add a new file to this repository.
