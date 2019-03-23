@@ -15,6 +15,29 @@ namespace LibrarianAssistant
         public Form1()
         {
             InitializeComponent();
+            //this.FormClosed +=
+            //   new System.Windows.Forms.FormClosedEventHandler(this.Form1_FormClosed);
+        }
+
+        private void Form1_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            //(new Form2()).Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+           // (new Form2()).Show();
+            //   this.Close();
+            //Application.EnableVisualStyles();
+            //Application.SetCompatibleTextRenderingDefault(false);
+            //Application.Run(new Form2());
+
+          //  this.Close();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            (new EditBook()).Show();
         }
     }
 }

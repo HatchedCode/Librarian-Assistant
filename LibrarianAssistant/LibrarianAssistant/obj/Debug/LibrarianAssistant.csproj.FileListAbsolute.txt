@@ -1,0 +1,11 @@
+C:\Users\pauld\OneDrive\Desktop\cpts\gitKracken\librarian-assistant\LibrarianAssistant\LibrarianAssistant\bin\Debug\LibrarianAssistant.exe.config
+C:\Users\pauld\OneDrive\Desktop\cpts\gitKracken\librarian-assistant\LibrarianAssistant\LibrarianAssistant\bin\Debug\LibrarianAssistant.exe
+C:\Users\pauld\OneDrive\Desktop\cpts\gitKracken\librarian-assistant\LibrarianAssistant\LibrarianAssistant\bin\Debug\LibrarianAssistant.pdb
+C:\Users\pauld\OneDrive\Desktop\cpts\gitKracken\librarian-assistant\LibrarianAssistant\LibrarianAssistant\obj\Debug\LibrarianAssistant.csprojAssemblyReference.cache
+C:\Users\pauld\OneDrive\Desktop\cpts\gitKracken\librarian-assistant\LibrarianAssistant\LibrarianAssistant\obj\Debug\LibrarianAssistant.Form1.resources
+C:\Users\pauld\OneDrive\Desktop\cpts\gitKracken\librarian-assistant\LibrarianAssistant\LibrarianAssistant\obj\Debug\LibrarianAssistant.Properties.Resources.resources
+C:\Users\pauld\OneDrive\Desktop\cpts\gitKracken\librarian-assistant\LibrarianAssistant\LibrarianAssistant\obj\Debug\LibrarianAssistant.csproj.GenerateResource.cache
+C:\Users\pauld\OneDrive\Desktop\cpts\gitKracken\librarian-assistant\LibrarianAssistant\LibrarianAssistant\obj\Debug\LibrarianAssistant.csproj.CoreCompileInputs.cache
+C:\Users\pauld\OneDrive\Desktop\cpts\gitKracken\librarian-assistant\LibrarianAssistant\LibrarianAssistant\obj\Debug\LibrarianAssistant.exe
+C:\Users\pauld\OneDrive\Desktop\cpts\gitKracken\librarian-assistant\LibrarianAssistant\LibrarianAssistant\obj\Debug\LibrarianAssistant.pdb
+C:\Users\pauld\OneDrive\Desktop\cpts\gitKracken\librarian-assistant\LibrarianAssistant\LibrarianAssistant\obj\Debug\LibrarianAssistant.EditBook.resources
