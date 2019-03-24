@@ -1,0 +1,11 @@
+C:\Users\Osman Bakari\Desktop\Current Courses\Cpts 322 (Software Engineering Principles)\Project\librarian-assistant\LibrarianAssistant\LibrarianAssistant\bin\Debug\LibrarianAssistant.exe.config
+C:\Users\Osman Bakari\Desktop\Current Courses\Cpts 322 (Software Engineering Principles)\Project\librarian-assistant\LibrarianAssistant\LibrarianAssistant\bin\Debug\LibrarianAssistant.exe
+C:\Users\Osman Bakari\Desktop\Current Courses\Cpts 322 (Software Engineering Principles)\Project\librarian-assistant\LibrarianAssistant\LibrarianAssistant\bin\Debug\LibrarianAssistant.pdb
+C:\Users\Osman Bakari\Desktop\Current Courses\Cpts 322 (Software Engineering Principles)\Project\librarian-assistant\LibrarianAssistant\LibrarianAssistant\obj\Debug\LibrarianAssistant.csprojAssemblyReference.cache
+C:\Users\Osman Bakari\Desktop\Current Courses\Cpts 322 (Software Engineering Principles)\Project\librarian-assistant\LibrarianAssistant\LibrarianAssistant\obj\Debug\LibrarianAssistant.Properties.Resources.resources
+C:\Users\Osman Bakari\Desktop\Current Courses\Cpts 322 (Software Engineering Principles)\Project\librarian-assistant\LibrarianAssistant\LibrarianAssistant\obj\Debug\LibrarianAssistant.csproj.GenerateResource.cache
+C:\Users\Osman Bakari\Desktop\Current Courses\Cpts 322 (Software Engineering Principles)\Project\librarian-assistant\LibrarianAssistant\LibrarianAssistant\obj\Debug\LibrarianAssistant.csproj.CoreCompileInputs.cache
+C:\Users\Osman Bakari\Desktop\Current Courses\Cpts 322 (Software Engineering Principles)\Project\librarian-assistant\LibrarianAssistant\LibrarianAssistant\obj\Debug\LibrarianAssistant.exe
+C:\Users\Osman Bakari\Desktop\Current Courses\Cpts 322 (Software Engineering Principles)\Project\librarian-assistant\LibrarianAssistant\LibrarianAssistant\obj\Debug\LibrarianAssistant.pdb
+C:\Users\Osman Bakari\Desktop\Current Courses\Cpts 322 (Software Engineering Principles)\Project\librarian-assistant\LibrarianAssistant\LibrarianAssistant\obj\Debug\LibrarianAssistant.Login.Screen.Login.resources
+C:\Users\Osman Bakari\Desktop\Current Courses\Cpts 322 (Software Engineering Principles)\Project\librarian-assistant\LibrarianAssistant\LibrarianAssistant\obj\Debug\LibrarianAssistant.MainForm.resources
