@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -11,7 +12,7 @@ namespace ApplicationEngine.UserTypes
         private string name;
         private uint networkID;
         private string password;
-        
+
         public User(string name = "", uint networkID = 00000000, string password = "")
         {
             this.password = password;
