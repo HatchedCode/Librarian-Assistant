@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CreateLibrarian.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreateLibrarian.Designer.cs">
+      <DependentUpon>CreateLibrarian.cs</DependentUpon>
+    </Compile>
     <Compile Include="EditBook.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,6 +66,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="CreateLibrarian.resx">
+      <DependentUpon>CreateLibrarian.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="EditBook.resx">
       <DependentUpon>EditBook.cs</DependentUpon>
     </EmbeddedResource>
