@@ -9,3 +9,4 @@ C:\Users\Osman Bakari\Desktop\Current Courses\Cpts 322 (Software Engineering Pri
 C:\Users\Osman Bakari\Desktop\Current Courses\Cpts 322 (Software Engineering Principles)\Project\librarian-assistant\LibrarianAssistant\LibrarianAssistant\obj\Debug\LibrarianAssistant.pdb
 C:\Users\Osman Bakari\Desktop\Current Courses\Cpts 322 (Software Engineering Principles)\Project\librarian-assistant\LibrarianAssistant\LibrarianAssistant\obj\Debug\LibrarianAssistant.Login.Screen.Login.resources
 C:\Users\Osman Bakari\Desktop\Current Courses\Cpts 322 (Software Engineering Principles)\Project\librarian-assistant\LibrarianAssistant\LibrarianAssistant\obj\Debug\LibrarianAssistant.MainForm.resources
+C:\Users\Osman Bakari\Desktop\Current Courses\Cpts 322 (Software Engineering Principles)\Project\librarian-assistant\LibrarianAssistant\LibrarianAssistant\obj\Debug\LibrarianAssistant.Admin.CreateAdmin.CreateAdmin.resources
