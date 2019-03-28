@@ -7,11 +7,16 @@ using System.Threading.Tasks;
 
 namespace ApplicationEngine.UserTypes
 {
-    internal abstract class User
+    internal abstract class User: INotifyPropertyChanged
     {
         private string name;
         private uint networkID;
         private string password;
+
+        /// <summary>
+        /// An event handler that handles events ( when a property changes).
+        /// </summary>
+        public event PropertyChangedEventHandler PropertyChanged = delegate { };
 
         public User(string name = "", uint networkID = 00000000, string password = "")
         {

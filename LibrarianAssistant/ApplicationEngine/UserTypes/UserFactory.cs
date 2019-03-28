@@ -9,6 +9,9 @@ namespace ApplicationEngine.UserTypes
 {
     internal class UserFactory
     {
+        // This represents the random number generator.
+        private static Random rnd = new Random();
+
         public UserFactory(string[] listExtendedAssemblies = null)
         {
             try
@@ -95,5 +98,27 @@ namespace ApplicationEngine.UserTypes
             return null;
         }
 
+        public static uint GenerateNetworkID()
+        {
+            string strNetworkIDrep = "";
+            IEnumerable<int> MaxNumberOfDigits = Enumerable.Range(1, 8);
+            foreach (int index in MaxNumberOfDigits)
+            {
+                strNetworkIDrep += (uint)rnd.Next();
+            }
+
+            if(uint.TryParse(strNetworkIDrep, out uint result))
+            {
+                return result;
+            }
+
+            return 1;
+        }
+
+        private static bool CheckNetworkID(uint newNetworkID)
+        {
+            // Check database to see if there exists such a networkid.
+            return true;
+        }
     }
 }
