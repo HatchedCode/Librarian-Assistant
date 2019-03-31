@@ -98,7 +98,7 @@
             this.textBox1.Location = new System.Drawing.Point(531, 101);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(312, 26);
-            this.textBox1.TabIndex = 1;
+            this.textBox1.TabIndex = 0;
             // 
             // textBox2
             // 
@@ -114,7 +114,7 @@
             this.textBox3.Location = new System.Drawing.Point(531, 221);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(312, 26);
-            this.textBox3.TabIndex = 1;
+            this.textBox3.TabIndex = 2;
             // 
             // textBox4
             // 
@@ -123,7 +123,7 @@
             this.textBox4.Name = "textBox4";
             this.textBox4.PasswordChar = '*';
             this.textBox4.Size = new System.Drawing.Size(312, 26);
-            this.textBox4.TabIndex = 1;
+            this.textBox4.TabIndex = 3;
             // 
             // adminregistrationLabel
             // 
@@ -153,7 +153,7 @@
             this.textBox5.Name = "textBox5";
             this.textBox5.PasswordChar = '*';
             this.textBox5.Size = new System.Drawing.Size(312, 26);
-            this.textBox5.TabIndex = 1;
+            this.textBox5.TabIndex = 4;
             // 
             // registerButton
             // 
@@ -161,7 +161,7 @@
             this.registerButton.Location = new System.Drawing.Point(354, 508);
             this.registerButton.Name = "registerButton";
             this.registerButton.Size = new System.Drawing.Size(489, 55);
-            this.registerButton.TabIndex = 3;
+            this.registerButton.TabIndex = 6;
             this.registerButton.Text = "Register";
             this.registerButton.UseVisualStyleBackColor = true;
             this.registerButton.Click += new System.EventHandler(this.registerButton_Click);

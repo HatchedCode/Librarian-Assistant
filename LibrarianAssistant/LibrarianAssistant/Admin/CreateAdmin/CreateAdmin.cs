@@ -25,8 +25,19 @@ namespace LibrarianAssistant.Admin.CreateAdmin
             this.BackColor = Color.White;
         }
 
-        private void registerButton_Click(object sender, EventArgs e)
+        private void textbox_EndEdit(object sender, EventArgs e)
         {
+
+        }
+
+            private void registerButton_Click(object sender, EventArgs e)
+        {
+            // Check each field
+            // Check passwords
+            // Check database for Network ID
+            // Check name is not already associated with a NetworkID
+
+
             // All of the stuff below should be done in the handlers else where.
 
             // Check Nothing is null
@@ -35,7 +46,6 @@ namespace LibrarianAssistant.Admin.CreateAdmin
 
             // Check Network ID is valid 8/9 digit ID number
 
-            // 
 
         }
 

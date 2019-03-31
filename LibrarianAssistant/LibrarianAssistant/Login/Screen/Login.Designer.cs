@@ -56,7 +56,7 @@
             this.passwordInput.Name = "passwordInput";
             this.passwordInput.PasswordChar = '*';
             this.passwordInput.Size = new System.Drawing.Size(474, 26);
-            this.passwordInput.TabIndex = 0;
+            this.passwordInput.TabIndex = 1;
             // 
             // loginButton
             // 
@@ -64,7 +64,7 @@
             this.loginButton.Location = new System.Drawing.Point(388, 559);
             this.loginButton.Name = "loginButton";
             this.loginButton.Size = new System.Drawing.Size(474, 61);
-            this.loginButton.TabIndex = 1;
+            this.loginButton.TabIndex = 2;
             this.loginButton.Text = "Login";
             this.loginButton.UseVisualStyleBackColor = true;
             this.loginButton.Click += new System.EventHandler(this.loginButton_Click);
@@ -119,7 +119,7 @@
             this.errorResponselabel.Location = new System.Drawing.Point(471, 491);
             this.errorResponselabel.Name = "errorResponselabel";
             this.errorResponselabel.Size = new System.Drawing.Size(301, 20);
-            this.errorResponselabel.TabIndex = 2;
+            this.errorResponselabel.TabIndex = 3;
             this.errorResponselabel.Text = "The password you entered was incorrect. ";
             // 
             // pictureBox1

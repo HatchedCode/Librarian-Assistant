@@ -38,7 +38,7 @@ namespace ApplicationEngine.UserTypes
 
         public void RemoveUser(string networkId)
         {
-
+            // verify that the network id exists in the database.
         }
 
         public void AddUser(ushort typeID, Tuple<string,uint,string> UserBasicinfo)

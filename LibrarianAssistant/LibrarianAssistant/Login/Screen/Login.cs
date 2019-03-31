@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -14,8 +15,14 @@ namespace LibrarianAssistant.Login.Screen
     {
         public Login()
         {
+            // this.userNameInput.Select();
             InitializeComponent();
             this.Text = "Login";
+            this.passwordInput.LostFocus += new EventHandler(textbox_EndEdit);
+            this.userNameInput.LostFocus += new EventHandler(textbox_EndEdit);
+            this.errorResponselabel.Visible = false;
+
+            // this.passwordInput.Validating += textbox_Validating;
         }
 
         private void Login_Load(object sender, EventArgs e)
@@ -44,8 +51,62 @@ namespace LibrarianAssistant.Login.Screen
             this.errorResponselabel.ForeColor = Color.FromArgb(172, 30, 50);
         }
 
+        private bool shouldMoveOnPass = false;
+        private bool shouldMoveOnUser = false;
+
+        private void textbox_EndEdit(object sender, EventArgs e)
+        {
+            string input = ((TextBox)sender).Text;
+            string errorMsg = "";
+
+            if (((TextBox)sender).Name == "userNameInput")
+            {
+                if (Regex.IsMatch(input, @"^[0-9]+$"))
+                {
+                    this.errorResponselabel.Visible = false;
+                }
+                else
+                {
+                    // Make the error message a specific message and clear the text.
+                    errorMsg = "Incorrect username!";
+                    this.errorResponselabel.Visible = true;
+                }
+            }
+            else
+            {
+                if (Regex.IsMatch(input, @"^[\w]+$"))
+                {
+                    // We need to check database then the boolean shouldMoveOnUser should be switched to true if the credentials are found in db.
+                    this.errorResponselabel.Visible = false;
+                }
+                else
+                {
+                    // Make the error message a specific message and clear the text.
+                    errorMsg = "Incorrect username!";
+                    this.errorResponselabel.Text = errorMsg;
+                    this.errorResponselabel.Visible = true;
+                }
+            }
+        }
+
         private void loginButton_Click(object sender, EventArgs e)
         {
+            if (shouldMoveOnPass && shouldMoveOnUser)
+            {
+                // We need to check database then the boolean shouldMoveOnUser should be switched to true if the credentials are found in db.
+
+                // If db fails then we need to allow the user to reenter the information.
+            }
+
+
+            // Check that the network id box contains a vlaue
+            // Password textbox is contains value
+
+            // Query the database to see if the id exits,
+            // If it does exist, check the corresponding password in the database is correct.
+
+            // If true, proceed to the next screen
+            // else, display appropriate message in teh response box.
 
         }
     }

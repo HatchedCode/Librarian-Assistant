@@ -22,7 +22,11 @@ namespace ApplicationEngine.UserTypes
         public ushort NumberBooksCheckedOut
         {
             get { return this.numBooksCheckedOut; }
-            set { this.numBooksCheckedOut = value; }
+            set
+            {
+                this.numBooksCheckedOut = value;
+                this.PropertyChanged;
+            }
         }
 
         public Cardholder()
