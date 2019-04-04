@@ -16,11 +16,12 @@ namespace LibrarianAssistant
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new LibrarianAssistant.Admin.CreateAdmin.CreateAdmin());
+            // Application.Run(new LibrarianAssistant.Admin.CreateAdmin.CreateAdmin());
+            Application.Run(new LibrarianAssistant.Librarian.ViewUsers());
 
             //Application.Run(new LibrarianAssistant.Login.Screen.Login());
 
-           // Application.Run(new MainForm());
+            // Application.Run(new MainForm());
         }
     }
 }
