@@ -52,12 +52,6 @@
     <Compile Include="Admin\CreateAdmin\CreateAdmin.Designer.cs">
       <DependentUpon>CreateAdmin.cs</DependentUpon>
     </Compile>
-    <Compile Include="Librarian\ViewUsers.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Librarian\ViewUsers.Designer.cs">
-      <DependentUpon>ViewUsers.cs</DependentUpon>
-    </Compile>
     <Compile Include="Login\Screen\Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -74,9 +68,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Admin\CreateAdmin\CreateAdmin.resx">
       <DependentUpon>CreateAdmin.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Librarian\ViewUsers.resx">
-      <DependentUpon>ViewUsers.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login\Screen\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
