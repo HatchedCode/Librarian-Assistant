@@ -10,3 +10,16 @@ C:\Users\Osman Bakari\Desktop\Current Courses\Cpts 322 (Software Engineering Pri
 C:\Users\Osman Bakari\Desktop\Current Courses\Cpts 322 (Software Engineering Principles)\Project\librarian-assistant\LibrarianAssistant\LibrarianAssistant\obj\Debug\LibrarianAssistant.Login.Screen.Login.resources
 C:\Users\Osman Bakari\Desktop\Current Courses\Cpts 322 (Software Engineering Principles)\Project\librarian-assistant\LibrarianAssistant\LibrarianAssistant\obj\Debug\LibrarianAssistant.MainForm.resources
 C:\Users\Osman Bakari\Desktop\Current Courses\Cpts 322 (Software Engineering Principles)\Project\librarian-assistant\LibrarianAssistant\LibrarianAssistant\obj\Debug\LibrarianAssistant.Admin.CreateAdmin.CreateAdmin.resources
+C:\Users\Marco Arceo\OneDrive\Documents\College Information\Junior Year\Spring Term\CS 322\librarian-assistant\LibrarianAssistant\LibrarianAssistant\bin\Debug\LibrarianAssistant.exe.config
+C:\Users\Marco Arceo\OneDrive\Documents\College Information\Junior Year\Spring Term\CS 322\librarian-assistant\LibrarianAssistant\LibrarianAssistant\bin\Debug\LibrarianAssistant.exe
+C:\Users\Marco Arceo\OneDrive\Documents\College Information\Junior Year\Spring Term\CS 322\librarian-assistant\LibrarianAssistant\LibrarianAssistant\bin\Debug\LibrarianAssistant.pdb
+C:\Users\Marco Arceo\OneDrive\Documents\College Information\Junior Year\Spring Term\CS 322\librarian-assistant\LibrarianAssistant\LibrarianAssistant\obj\Debug\LibrarianAssistant.csprojAssemblyReference.cache
+C:\Users\Marco Arceo\OneDrive\Documents\College Information\Junior Year\Spring Term\CS 322\librarian-assistant\LibrarianAssistant\LibrarianAssistant\obj\Debug\LibrarianAssistant.Admin.CreateAdmin.CreateAdmin.resources
+C:\Users\Marco Arceo\OneDrive\Documents\College Information\Junior Year\Spring Term\CS 322\librarian-assistant\LibrarianAssistant\LibrarianAssistant\obj\Debug\LibrarianAssistant.Librarian.ViewUsers.resources
+C:\Users\Marco Arceo\OneDrive\Documents\College Information\Junior Year\Spring Term\CS 322\librarian-assistant\LibrarianAssistant\LibrarianAssistant\obj\Debug\LibrarianAssistant.Login.Screen.Login.resources
+C:\Users\Marco Arceo\OneDrive\Documents\College Information\Junior Year\Spring Term\CS 322\librarian-assistant\LibrarianAssistant\LibrarianAssistant\obj\Debug\LibrarianAssistant.MainForm.resources
+C:\Users\Marco Arceo\OneDrive\Documents\College Information\Junior Year\Spring Term\CS 322\librarian-assistant\LibrarianAssistant\LibrarianAssistant\obj\Debug\LibrarianAssistant.Properties.Resources.resources
+C:\Users\Marco Arceo\OneDrive\Documents\College Information\Junior Year\Spring Term\CS 322\librarian-assistant\LibrarianAssistant\LibrarianAssistant\obj\Debug\LibrarianAssistant.csproj.GenerateResource.cache
+C:\Users\Marco Arceo\OneDrive\Documents\College Information\Junior Year\Spring Term\CS 322\librarian-assistant\LibrarianAssistant\LibrarianAssistant\obj\Debug\LibrarianAssistant.csproj.CoreCompileInputs.cache
+C:\Users\Marco Arceo\OneDrive\Documents\College Information\Junior Year\Spring Term\CS 322\librarian-assistant\LibrarianAssistant\LibrarianAssistant\obj\Debug\LibrarianAssistant.exe
+C:\Users\Marco Arceo\OneDrive\Documents\College Information\Junior Year\Spring Term\CS 322\librarian-assistant\LibrarianAssistant\LibrarianAssistant\obj\Debug\LibrarianAssistant.pdb
