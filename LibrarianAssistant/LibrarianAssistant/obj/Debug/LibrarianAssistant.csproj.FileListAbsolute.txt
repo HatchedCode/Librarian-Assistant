@@ -10,3 +10,10 @@ C:\Users\pauld\OneDrive\Desktop\cpts\gitKracken\librarian-assistant\LibrarianAss
 C:\Users\pauld\OneDrive\Desktop\cpts\gitKracken\librarian-assistant\LibrarianAssistant\LibrarianAssistant\obj\Debug\LibrarianAssistant.pdb
 C:\Users\pauld\OneDrive\Desktop\cpts\gitKracken\librarian-assistant\LibrarianAssistant\LibrarianAssistant\obj\Debug\LibrarianAssistant.EditBook.resources
 C:\Users\pauld\OneDrive\Desktop\cpts\gitKracken\librarian-assistant\LibrarianAssistant\LibrarianAssistant\obj\Debug\LibrarianAssistant.CreateLibrarian.resources
+C:\Users\pauld\OneDrive\Desktop\cpts\gitKracken\librarian-assistant\LibrarianAssistant\LibrarianAssistant\bin\Debug\FireSharp.dll
+C:\Users\pauld\OneDrive\Desktop\cpts\gitKracken\librarian-assistant\LibrarianAssistant\LibrarianAssistant\bin\Debug\FireSharp.Serialization.JsonNet.dll
+C:\Users\pauld\OneDrive\Desktop\cpts\gitKracken\librarian-assistant\LibrarianAssistant\LibrarianAssistant\bin\Debug\Newtonsoft.Json.dll
+C:\Users\pauld\OneDrive\Desktop\cpts\gitKracken\librarian-assistant\LibrarianAssistant\LibrarianAssistant\bin\Debug\RestSharp.dll
+C:\Users\pauld\OneDrive\Desktop\cpts\gitKracken\librarian-assistant\LibrarianAssistant\LibrarianAssistant\bin\Debug\Newtonsoft.Json.xml
+C:\Users\pauld\OneDrive\Desktop\cpts\gitKracken\librarian-assistant\LibrarianAssistant\LibrarianAssistant\bin\Debug\RestSharp.xml
+C:\Users\pauld\OneDrive\Desktop\cpts\gitKracken\librarian-assistant\LibrarianAssistant\LibrarianAssistant\obj\Debug\LibrarianAssistant.csproj.CopyComplete

@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.Submit = new System.Windows.Forms.Button();
             this.ISBN = new System.Windows.Forms.TextBox();
             this.Title = new System.Windows.Forms.TextBox();
             this.Author = new System.Windows.Forms.TextBox();
@@ -44,24 +43,14 @@
             this.CHText = new System.Windows.Forms.TextBox();
             this.CardHolder = new System.Windows.Forms.TextBox();
             this.Back = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
-            // 
-            // Submit
-            // 
-            this.Submit.Location = new System.Drawing.Point(518, 395);
-            this.Submit.Name = "Submit";
-            this.Submit.Size = new System.Drawing.Size(75, 23);
-            this.Submit.TabIndex = 0;
-            this.Submit.Text = "button1";
-            this.Submit.UseVisualStyleBackColor = true;
-            this.Submit.Click += new System.EventHandler(this.Submit_Click);
             // 
             // ISBN
             // 
             this.ISBN.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
             this.ISBN.Location = new System.Drawing.Point(251, 53);
             this.ISBN.Name = "ISBN";
-            this.ISBN.ReadOnly = true;
             this.ISBN.Size = new System.Drawing.Size(225, 22);
             this.ISBN.TabIndex = 1;
             this.ISBN.TextChanged += new System.EventHandler(this.ISBN_TextChanged);
@@ -177,11 +166,22 @@
             this.Back.Text = "button1";
             this.Back.UseVisualStyleBackColor = true;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(536, 336);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 16;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_ClickAsync);
+            // 
             // EditBook
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.Back);
             this.Controls.Add(this.CardHolder);
             this.Controls.Add(this.CHText);
@@ -197,7 +197,6 @@
             this.Controls.Add(this.Author);
             this.Controls.Add(this.Title);
             this.Controls.Add(this.ISBN);
-            this.Controls.Add(this.Submit);
             this.Name = "EditBook";
             this.Text = "EditBook";
             this.Load += new System.EventHandler(this.EditBook_Load_1);
@@ -207,8 +206,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Button Submit;
         private System.Windows.Forms.TextBox ISBN;
         private System.Windows.Forms.TextBox Title;
         private System.Windows.Forms.TextBox Author;
@@ -224,5 +221,6 @@
         private System.Windows.Forms.TextBox CHText;
         private System.Windows.Forms.TextBox CardHolder;
         private System.Windows.Forms.Button Back;
+        private System.Windows.Forms.Button button1;
     }
 }

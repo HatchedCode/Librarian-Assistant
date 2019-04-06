@@ -50,6 +50,7 @@
             this.Back.TabIndex = 0;
             this.Back.Text = "button1";
             this.Back.UseVisualStyleBackColor = true;
+            this.Back.Click += new System.EventHandler(this.Back_Click);
             // 
             // Submit
             // 
@@ -59,6 +60,7 @@
             this.Submit.TabIndex = 1;
             this.Submit.Text = "button2";
             this.Submit.UseVisualStyleBackColor = true;
+            this.Submit.Click += new System.EventHandler(this.Submit_Click);
             // 
             // FirstNameText
             // 
@@ -113,6 +115,7 @@
             this.ID.Name = "ID";
             this.ID.Size = new System.Drawing.Size(100, 22);
             this.ID.TabIndex = 9;
+            this.ID.TextChanged += new System.EventHandler(this.ID_TextChanged);
             // 
             // Password
             // 
@@ -120,6 +123,7 @@
             this.Password.Name = "Password";
             this.Password.Size = new System.Drawing.Size(100, 22);
             this.Password.TabIndex = 10;
+            this.Password.TextChanged += new System.EventHandler(this.Password_TextChanged);
             // 
             // RePasswordText
             // 
