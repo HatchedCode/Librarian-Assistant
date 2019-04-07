@@ -37,16 +37,40 @@ namespace LibrarianAssistant.Librarian
 
         }
 
-        private void InitializeComponent()
-        {
-            this.SuspendLayout();
-            // 
-            // ViewUsers
-            // 
-            this.ClientSize = new System.Drawing.Size(980, 532);
-            this.Name = "ViewUsers";
-            this.ResumeLayout(false);
+        //private void InitializeComponent()
+        //{
+        //    this.SuspendLayout();
+        //    // 
+        //    // ViewUsers
+        //    // 
+        //    this.ClientSize = new System.Drawing.Size(990, 500);
+        //    this.Name = "ViewUsers";
+        //    this.ResumeLayout(false);
 
-        }
+        //}
+
+        //private void InitializeComponent()
+        //{
+        //    this.SuspendLayout();
+        //    // 
+        //    // ViewUsers
+        //    // 
+        //    this.ClientSize = new System.Drawing.Size(1090, 565);
+        //    this.Name = "ViewUsers";
+        //    this.ResumeLayout(false);
+
+        //}
+
+        //private void InitializeComponent()
+        //{
+        //    this.SuspendLayout();
+        //    // 
+        //    // ViewUsers
+        //    // 
+        //    this.ClientSize = new System.Drawing.Size(1066, 541);
+        //    this.Name = "ViewUsers";
+        //    this.ResumeLayout(false);
+
+        //}
     }
 }
