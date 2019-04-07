@@ -52,13 +52,11 @@
     <Compile Include="Admin\CreateAdmin\CreateAdmin.Designer.cs">
       <DependentUpon>CreateAdmin.cs</DependentUpon>
     </Compile>
-    <Compile Include="Admin\Main Screen\Form1.cs">
+    <Compile Include="Admin\Main Screen\AdminMainScreenUI.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Admin\Main Screen\Form1.Designer.cs" />
-    <Compile Include="Librarian\ViewUsers.cs" />
-    <Compile Include="Librarian\ViewUsers.Designer.cs">
-      <DependentUpon>ViewUsers.cs</DependentUpon>
+    <Compile Include="Admin\Main Screen\AdminMainScreenUI.Designer.cs">
+      <DependentUpon>AdminMainScreenUI.cs</DependentUpon>
     </Compile>
     <Compile Include="Login\Screen\Login.cs">
       <SubType>Form</SubType>
@@ -77,9 +75,8 @@
     <EmbeddedResource Include="Admin\CreateAdmin\CreateAdmin.resx">
       <DependentUpon>CreateAdmin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Admin\Main Screen\Form1.resx" />
-    <EmbeddedResource Include="Librarian\ViewUsers.resx">
-      <DependentUpon>ViewUsers.cs</DependentUpon>
+    <EmbeddedResource Include="Admin\Main Screen\AdminMainScreenUI.resx">
+      <DependentUpon>AdminMainScreenUI.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login\Screen\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
@@ -95,7 +92,9 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="Admin\Main Screen\App.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -110,8 +109,12 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\admin.png" />
+    <None Include="Admin\Main Screen\Resources\admin.png" />
     <Content Include="Login\LoginImages\Librlogo %281%29.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Librarian\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

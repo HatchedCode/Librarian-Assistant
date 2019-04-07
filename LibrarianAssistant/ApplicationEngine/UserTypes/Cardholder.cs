@@ -25,7 +25,7 @@ namespace ApplicationEngine.UserTypes
             set
             {
                 this.numBooksCheckedOut = value;
-                this.PropertyChanged;
+                // this.PropertyChanged;
             }
         }
 

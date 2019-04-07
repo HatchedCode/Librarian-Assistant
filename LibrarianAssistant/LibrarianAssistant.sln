@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibrarianAssistant", "Libra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplicationEngine", "ApplicationEngine\ApplicationEngine.csproj", "{0E7F811B-6CB9-4AB3-B3AB-E70E4DBE26DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EngineTests", "EngineTests\EngineTests.csproj", "{89FFF854-F43B-4E33-B8C9-108A357C7F7F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EngineTests", "EngineTests\EngineTests.csproj", "{89FFF854-F43B-4E33-B8C9-108A357C7F7F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
