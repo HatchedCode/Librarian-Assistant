@@ -52,6 +52,10 @@
     <Compile Include="Admin\CreateAdmin\CreateAdmin.Designer.cs">
       <DependentUpon>CreateAdmin.cs</DependentUpon>
     </Compile>
+    <Compile Include="Admin\Main Screen\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\Main Screen\Form1.Designer.cs" />
     <Compile Include="Librarian\ViewUsers.cs" />
     <Compile Include="Librarian\ViewUsers.Designer.cs">
       <DependentUpon>ViewUsers.cs</DependentUpon>
@@ -73,6 +77,7 @@
     <EmbeddedResource Include="Admin\CreateAdmin\CreateAdmin.resx">
       <DependentUpon>CreateAdmin.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Admin\Main Screen\Form1.resx" />
     <EmbeddedResource Include="Librarian\ViewUsers.resx">
       <DependentUpon>ViewUsers.cs</DependentUpon>
     </EmbeddedResource>
@@ -107,8 +112,6 @@
   <ItemGroup>
     <Content Include="Login\LoginImages\Librlogo %281%29.png" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Admin\Main Screen\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
