@@ -107,5 +107,8 @@
   <ItemGroup>
     <Content Include="Login\LoginImages\Librlogo %281%29.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Admin\Main Screen\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
