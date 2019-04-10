@@ -16,7 +16,9 @@ namespace LibrarianAssistant
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new LibrarianAssistant.Admin.CreateAdmin.CreateAdmin());
+            Application.Run(new Form1());
+
+            //Application.Run(new LibrarianAssistant.Admin.CreateAdmin.CreateAdmin());
            // Application.Run(new LibrarianAssistant.Admin AdminMainScreenUI);
 
             //AdminMainScreenUI

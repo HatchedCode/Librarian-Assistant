@@ -72,6 +72,8 @@
       <DependentUpon>EditBook.cs</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Admin\CreateAdmin\CreateAdmin.cs">
       <SubType>Form</SubType>
     </Compile>

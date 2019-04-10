@@ -44,6 +44,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UserTypes\Admin.cs" />
     <Compile Include="UserTypes\Cardholder.cs" />
+    <Compile Include="UserTypes\Librarian.cs" />
     <Compile Include="UserTypes\User.cs" />
     <Compile Include="UserTypes\UserFactory.cs" />
   </ItemGroup>

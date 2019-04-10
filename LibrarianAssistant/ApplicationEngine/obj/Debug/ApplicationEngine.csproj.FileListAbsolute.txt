@@ -3,3 +3,4 @@ C:\Users\Osman Bakari\Desktop\Current Courses\Cpts 322 (Software Engineering Pri
 C:\Users\Osman Bakari\Desktop\Current Courses\Cpts 322 (Software Engineering Principles)\Project\librarian-assistant\LibrarianAssistant\ApplicationEngine\obj\Debug\ApplicationEngine.csproj.CoreCompileInputs.cache
 C:\Users\Osman Bakari\Desktop\Current Courses\Cpts 322 (Software Engineering Principles)\Project\librarian-assistant\LibrarianAssistant\ApplicationEngine\obj\Debug\ApplicationEngine.dll
 C:\Users\Osman Bakari\Desktop\Current Courses\Cpts 322 (Software Engineering Principles)\Project\librarian-assistant\LibrarianAssistant\ApplicationEngine\obj\Debug\ApplicationEngine.pdb
+C:\Users\Osman Bakari\Desktop\Current Courses\Cpts 322 (Software Engineering Principles)\Project\librarian-assistant\LibrarianAssistant\ApplicationEngine\obj\Debug\ApplicationEngine.csprojAssemblyReference.cache

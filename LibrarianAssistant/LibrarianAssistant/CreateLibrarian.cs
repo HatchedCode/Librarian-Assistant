@@ -14,6 +14,9 @@ using FireSharp.Response;
 
 namespace LibrarianAssistant
 {
+    using ApplicationEngine;
+    using ApplicationEngine.UserTypes;
+
 
     public partial class CreateLibrarian : Form
     {
@@ -64,7 +67,7 @@ namespace LibrarianAssistant
 
             private async void Submit_Click(object sender, EventArgs e)
         {
-            var data = new Librarian
+            var data = new ApplicationEngine.UserTypes.Librarian
             {
                 FirstName = FirstName.Text,
                 LastName = LastName.Text,
@@ -73,7 +76,7 @@ namespace LibrarianAssistant
             };
 
             SetResponse response = await client.SetTaskAsync(ID.Text, data);
-            Librarian results = response.ResultAs<Librarian>();
+            ApplicationEngine.UserTypes.Librarian results = response.ResultAs<ApplicationEngine.UserTypes.Librarian>();
  
         }
 
