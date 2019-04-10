@@ -69,5 +69,15 @@ namespace LibrarianAssistant.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+        /// </summary>
+        internal static System.Drawing.Icon wsu_unit_social_badge_LVo_icon {
+            get {
+                object obj = ResourceManager.GetObject("wsu_unit_social_badge_LVo_icon", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
     }
 }

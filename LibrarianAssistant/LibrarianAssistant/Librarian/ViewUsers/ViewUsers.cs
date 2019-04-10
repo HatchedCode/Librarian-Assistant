@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace LibrarianAssistant.Librarian
+namespace LibrarianAssistant.Librarian.ViewUsers
 {
     public partial class ViewUsers : Form
     {
@@ -16,6 +16,7 @@ namespace LibrarianAssistant.Librarian
         {
             InitializeComponent();
         }
+
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
@@ -36,53 +37,5 @@ namespace LibrarianAssistant.Librarian
         {
 
         }
-
-        //private void InitializeComponent()
-        //{
-        //    this.SuspendLayout();
-        //    // 
-        //    // ViewUsers
-        //    // 
-        //    this.ClientSize = new System.Drawing.Size(963, 479);
-        //    this.Name = "ViewUsers";
-        //    this.ResumeLayout(false);
-
-        //}
-
-        //private void InitializeComponent()
-        //{
-        //    this.SuspendLayout();
-        //    // 
-        //    // ViewUsers
-        //    // 
-        //    this.ClientSize = new System.Drawing.Size(990, 500);
-        //    this.Name = "ViewUsers";
-        //    this.ResumeLayout(false);
-
-        //}
-
-        //private void InitializeComponent()
-        //{
-        //    this.SuspendLayout();
-        //    // 
-        //    // ViewUsers
-        //    // 
-        //    this.ClientSize = new System.Drawing.Size(1090, 565);
-        //    this.Name = "ViewUsers";
-        //    this.ResumeLayout(false);
-
-        //}
-
-        //private void InitializeComponent()
-        //{
-        //    this.SuspendLayout();
-        //    // 
-        //    // ViewUsers
-        //    // 
-        //    this.ClientSize = new System.Drawing.Size(1066, 541);
-        //    this.Name = "ViewUsers";
-        //    this.ResumeLayout(false);
-
-        //}
     }
 }
