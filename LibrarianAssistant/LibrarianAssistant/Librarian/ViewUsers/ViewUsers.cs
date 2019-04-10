@@ -37,6 +37,18 @@ namespace LibrarianAssistant.Librarian
 
         }
 
+        private void InitializeComponent()
+        {
+            this.SuspendLayout();
+            // 
+            // ViewUsers
+            // 
+            this.ClientSize = new System.Drawing.Size(963, 479);
+            this.Name = "ViewUsers";
+            this.ResumeLayout(false);
+
+        }
+
         //private void InitializeComponent()
         //{
         //    this.SuspendLayout();
