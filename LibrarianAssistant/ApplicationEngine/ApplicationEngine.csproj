@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Book\Book.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UserTypes\Admin.cs" />
     <Compile Include="UserTypes\Cardholder.cs" />

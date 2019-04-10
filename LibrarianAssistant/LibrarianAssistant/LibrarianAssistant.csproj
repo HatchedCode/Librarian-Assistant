@@ -58,17 +58,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Book.cs" />
-    <Compile Include="CreateLibrarian.cs">
+    <Compile Include="Librarian\CreateLibrarian\CreateLibrarian.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CreateLibrarian.Designer.cs">
+    <Compile Include="Librarian\CreateLibrarian\CreateLibrarian.Designer.cs">
       <DependentUpon>CreateLibrarian.cs</DependentUpon>
     </Compile>
-    <Compile Include="EditBook.cs">
+    <Compile Include="Librarian\Edit Books\EditBook.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="EditBook.Designer.cs">
+    <Compile Include="Librarian\Edit Books\EditBook.Designer.cs">
       <DependentUpon>EditBook.cs</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
@@ -104,10 +103,10 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="CreateLibrarian.resx">
+    <EmbeddedResource Include="Librarian\CreateLibrarian\CreateLibrarian.resx">
       <DependentUpon>CreateLibrarian.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="EditBook.resx">
+    <EmbeddedResource Include="Librarian\Edit Books\EditBook.resx">
       <DependentUpon>EditBook.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
