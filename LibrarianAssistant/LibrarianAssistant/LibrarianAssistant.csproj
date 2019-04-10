@@ -102,7 +102,6 @@
     <Compile Include="MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Librarian.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="CreateLibrarian.resx">
@@ -157,6 +156,11 @@
     <None Include="Admin\Main Screen\Resources\admin.png" />
     <Content Include="Login\LoginImages\Librlogo %281%29.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\ApplicationEngine\ApplicationEngine.csproj">
+      <Project>{0e7f811b-6cb9-4ab3-b3ab-e70e4dbe26db}</Project>
+      <Name>ApplicationEngine</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

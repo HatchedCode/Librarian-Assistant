@@ -15,7 +15,7 @@ namespace LibrarianAssistant
     public partial class Form1 : Form
     {
         public Form1()
-        {
+        {            
             InitializeComponent();
             //this.FormClosed +=
             //   new System.Windows.Forms.FormClosedEventHandler(this.Form1_FormClosed);
@@ -43,6 +43,18 @@ namespace LibrarianAssistant
 
             (new EditBook()).Show();
             (new CreateLibrarian()).Show();
+        }
+
+        private void InitializeComponent()
+        {
+            this.SuspendLayout();
+            // 
+            // Form1
+            // 
+            this.ClientSize = new System.Drawing.Size(886, 432);
+            this.Name = "Form1";
+            this.ResumeLayout(false);
+
         }
     }
 }
