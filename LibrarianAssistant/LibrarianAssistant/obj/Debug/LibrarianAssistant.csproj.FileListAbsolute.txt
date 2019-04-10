@@ -11,22 +11,13 @@ C:\Users\Osman Bakari\Desktop\Current Courses\Cpts 322 (Software Engineering Pri
 C:\Users\Osman Bakari\Desktop\Current Courses\Cpts 322 (Software Engineering Principles)\Project\librarian-assistant\LibrarianAssistant\LibrarianAssistant\obj\Debug\LibrarianAssistant.csproj.CoreCompileInputs.cache
 C:\Users\Osman Bakari\Desktop\Current Courses\Cpts 322 (Software Engineering Principles)\Project\librarian-assistant\LibrarianAssistant\LibrarianAssistant\obj\Debug\LibrarianAssistant.exe
 C:\Users\Osman Bakari\Desktop\Current Courses\Cpts 322 (Software Engineering Principles)\Project\librarian-assistant\LibrarianAssistant\LibrarianAssistant\obj\Debug\LibrarianAssistant.pdb
-C:\Users\pauld\OneDrive\Desktop\cpts\gitKracken\librarian-assistant\LibrarianAssistant\LibrarianAssistant\bin\Debug\LibrarianAssistant.exe.config
-C:\Users\pauld\OneDrive\Desktop\cpts\gitKracken\librarian-assistant\LibrarianAssistant\LibrarianAssistant\bin\Debug\LibrarianAssistant.exe
-C:\Users\pauld\OneDrive\Desktop\cpts\gitKracken\librarian-assistant\LibrarianAssistant\LibrarianAssistant\bin\Debug\LibrarianAssistant.pdb
-C:\Users\pauld\OneDrive\Desktop\cpts\gitKracken\librarian-assistant\LibrarianAssistant\LibrarianAssistant\obj\Debug\LibrarianAssistant.csprojAssemblyReference.cache
-C:\Users\pauld\OneDrive\Desktop\cpts\gitKracken\librarian-assistant\LibrarianAssistant\LibrarianAssistant\obj\Debug\LibrarianAssistant.Form1.resources
-C:\Users\pauld\OneDrive\Desktop\cpts\gitKracken\librarian-assistant\LibrarianAssistant\LibrarianAssistant\obj\Debug\LibrarianAssistant.Properties.Resources.resources
-C:\Users\pauld\OneDrive\Desktop\cpts\gitKracken\librarian-assistant\LibrarianAssistant\LibrarianAssistant\obj\Debug\LibrarianAssistant.csproj.GenerateResource.cache
-C:\Users\pauld\OneDrive\Desktop\cpts\gitKracken\librarian-assistant\LibrarianAssistant\LibrarianAssistant\obj\Debug\LibrarianAssistant.csproj.CoreCompileInputs.cache
-C:\Users\pauld\OneDrive\Desktop\cpts\gitKracken\librarian-assistant\LibrarianAssistant\LibrarianAssistant\obj\Debug\LibrarianAssistant.exe
-C:\Users\pauld\OneDrive\Desktop\cpts\gitKracken\librarian-assistant\LibrarianAssistant\LibrarianAssistant\obj\Debug\LibrarianAssistant.pdb
-C:\Users\pauld\OneDrive\Desktop\cpts\gitKracken\librarian-assistant\LibrarianAssistant\LibrarianAssistant\obj\Debug\LibrarianAssistant.EditBook.resources
-C:\Users\pauld\OneDrive\Desktop\cpts\gitKracken\librarian-assistant\LibrarianAssistant\LibrarianAssistant\obj\Debug\LibrarianAssistant.CreateLibrarian.resources
-C:\Users\pauld\OneDrive\Desktop\cpts\gitKracken\librarian-assistant\LibrarianAssistant\LibrarianAssistant\bin\Debug\FireSharp.dll
-C:\Users\pauld\OneDrive\Desktop\cpts\gitKracken\librarian-assistant\LibrarianAssistant\LibrarianAssistant\bin\Debug\FireSharp.Serialization.JsonNet.dll
-C:\Users\pauld\OneDrive\Desktop\cpts\gitKracken\librarian-assistant\LibrarianAssistant\LibrarianAssistant\bin\Debug\Newtonsoft.Json.dll
-C:\Users\pauld\OneDrive\Desktop\cpts\gitKracken\librarian-assistant\LibrarianAssistant\LibrarianAssistant\bin\Debug\RestSharp.dll
-C:\Users\pauld\OneDrive\Desktop\cpts\gitKracken\librarian-assistant\LibrarianAssistant\LibrarianAssistant\bin\Debug\Newtonsoft.Json.xml
-C:\Users\pauld\OneDrive\Desktop\cpts\gitKracken\librarian-assistant\LibrarianAssistant\LibrarianAssistant\bin\Debug\RestSharp.xml
-C:\Users\pauld\OneDrive\Desktop\cpts\gitKracken\librarian-assistant\LibrarianAssistant\LibrarianAssistant\obj\Debug\LibrarianAssistant.csproj.CopyComplete
+C:\Users\Osman Bakari\Desktop\Current Courses\Cpts 322 (Software Engineering Principles)\Project\librarian-assistant\LibrarianAssistant\LibrarianAssistant\obj\Debug\LibrarianAssistant.Form1.resources
+C:\Users\Osman Bakari\Desktop\Current Courses\Cpts 322 (Software Engineering Principles)\Project\librarian-assistant\LibrarianAssistant\LibrarianAssistant\obj\Debug\LibrarianAssistant.EditBook.resources
+C:\Users\Osman Bakari\Desktop\Current Courses\Cpts 322 (Software Engineering Principles)\Project\librarian-assistant\LibrarianAssistant\LibrarianAssistant\obj\Debug\LibrarianAssistant.CreateLibrarian.resources
+C:\Users\Osman Bakari\Desktop\Current Courses\Cpts 322 (Software Engineering Principles)\Project\librarian-assistant\LibrarianAssistant\LibrarianAssistant\bin\Debug\FireSharp.dll
+C:\Users\Osman Bakari\Desktop\Current Courses\Cpts 322 (Software Engineering Principles)\Project\librarian-assistant\LibrarianAssistant\LibrarianAssistant\bin\Debug\FireSharp.Serialization.JsonNet.dll
+C:\Users\Osman Bakari\Desktop\Current Courses\Cpts 322 (Software Engineering Principles)\Project\librarian-assistant\LibrarianAssistant\LibrarianAssistant\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Osman Bakari\Desktop\Current Courses\Cpts 322 (Software Engineering Principles)\Project\librarian-assistant\LibrarianAssistant\LibrarianAssistant\bin\Debug\RestSharp.dll
+C:\Users\Osman Bakari\Desktop\Current Courses\Cpts 322 (Software Engineering Principles)\Project\librarian-assistant\LibrarianAssistant\LibrarianAssistant\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Osman Bakari\Desktop\Current Courses\Cpts 322 (Software Engineering Principles)\Project\librarian-assistant\LibrarianAssistant\LibrarianAssistant\bin\Debug\RestSharp.xml
+C:\Users\Osman Bakari\Desktop\Current Courses\Cpts 322 (Software Engineering Principles)\Project\librarian-assistant\LibrarianAssistant\LibrarianAssistant\obj\Debug\LibrarianAssistant.csproj.CopyComplete
