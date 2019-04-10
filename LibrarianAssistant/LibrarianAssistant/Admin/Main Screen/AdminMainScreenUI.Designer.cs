@@ -1,4 +1,4 @@
-﻿namespace AdminUI
+﻿namespace LibrarianAssistant.Admin.AdminUI
 {
     partial class AdminMainScreenUI
     {

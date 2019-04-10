@@ -14,7 +14,6 @@ C:\Users\Osman Bakari\Desktop\Current Courses\Cpts 322 (Software Engineering Pri
 C:\Users\Osman Bakari\Desktop\Current Courses\Cpts 322 (Software Engineering Principles)\Project\librarian-assistant\LibrarianAssistant\LibrarianAssistant\obj\Debug\LibrarianAssistant.EditBook.resources
 C:\Users\Osman Bakari\Desktop\Current Courses\Cpts 322 (Software Engineering Principles)\Project\librarian-assistant\LibrarianAssistant\LibrarianAssistant\obj\Debug\LibrarianAssistant.Form1.resources
 C:\Users\Osman Bakari\Desktop\Current Courses\Cpts 322 (Software Engineering Principles)\Project\librarian-assistant\LibrarianAssistant\LibrarianAssistant\obj\Debug\LibrarianAssistant.Admin.CreateAdmin.CreateAdmin.resources
-C:\Users\Osman Bakari\Desktop\Current Courses\Cpts 322 (Software Engineering Principles)\Project\librarian-assistant\LibrarianAssistant\LibrarianAssistant\obj\Debug\AdminUI.AdminMainScreenUI.resources
 C:\Users\Osman Bakari\Desktop\Current Courses\Cpts 322 (Software Engineering Principles)\Project\librarian-assistant\LibrarianAssistant\LibrarianAssistant\obj\Debug\LibrarianAssistant.Login.Screen.Login.resources
 C:\Users\Osman Bakari\Desktop\Current Courses\Cpts 322 (Software Engineering Principles)\Project\librarian-assistant\LibrarianAssistant\LibrarianAssistant\obj\Debug\LibrarianAssistant.MainForm.resources
 C:\Users\Osman Bakari\Desktop\Current Courses\Cpts 322 (Software Engineering Principles)\Project\librarian-assistant\LibrarianAssistant\LibrarianAssistant\obj\Debug\LibrarianAssistant.Properties.Resources.resources
@@ -23,3 +22,4 @@ C:\Users\Osman Bakari\Desktop\Current Courses\Cpts 322 (Software Engineering Pri
 C:\Users\Osman Bakari\Desktop\Current Courses\Cpts 322 (Software Engineering Principles)\Project\librarian-assistant\LibrarianAssistant\LibrarianAssistant\obj\Debug\LibrarianAssistant.csproj.CopyComplete
 C:\Users\Osman Bakari\Desktop\Current Courses\Cpts 322 (Software Engineering Principles)\Project\librarian-assistant\LibrarianAssistant\LibrarianAssistant\obj\Debug\LibrarianAssistant.exe
 C:\Users\Osman Bakari\Desktop\Current Courses\Cpts 322 (Software Engineering Principles)\Project\librarian-assistant\LibrarianAssistant\LibrarianAssistant\obj\Debug\LibrarianAssistant.pdb
+C:\Users\Osman Bakari\Desktop\Current Courses\Cpts 322 (Software Engineering Principles)\Project\librarian-assistant\LibrarianAssistant\LibrarianAssistant\obj\Debug\LibrarianAssistant.Admin.AdminUI.AdminMainScreenUI.resources

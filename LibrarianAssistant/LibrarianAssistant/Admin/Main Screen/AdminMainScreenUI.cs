@@ -1,5 +1,5 @@
 ﻿
-namespace AdminUI
+namespace LibrarianAssistant.Admin.AdminUI
 {
     using System;
     using System.Collections.Generic;
