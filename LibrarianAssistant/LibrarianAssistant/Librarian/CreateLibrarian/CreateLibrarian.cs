@@ -20,7 +20,6 @@ namespace LibrarianAssistant
 
     public partial class CreateLibrarian : Form
     {
-
         IFirebaseConfig config = new FirebaseConfig
         {
             AuthSecret = "AzjbyoyIlfvOFVzasWvFtWd9qUquxgEk2RNIWfXW",
@@ -28,6 +27,8 @@ namespace LibrarianAssistant
         };
 
         IFirebaseClient client;
+
+        DataBase data = new DataBase();
 
 
 
@@ -53,7 +54,7 @@ namespace LibrarianAssistant
 
             client = new FireSharp.FirebaseClient(config);
 
-          
+
         }
 
         private void FirstNameText_TextChanged(object sender, EventArgs e)
@@ -63,21 +64,26 @@ namespace LibrarianAssistant
 
         private void Back_Click(object sender, EventArgs e)
         {
+    
         }
 
             private async void Submit_Click(object sender, EventArgs e)
         {
-            var data = new ApplicationEngine.UserTypes.Librarian
+            ApplicationEngine.UserTypes.Librarian daa = new ApplicationEngine.UserTypes.Librarian
             {
                 FirstName = FirstName.Text,
                 LastName = LastName.Text,
-                ID = ID.Text,
+                ID = Convert.ToUInt32( ID.Text),
                 Password = Password.Text
             };
 
-            SetResponse response = await client.SetTaskAsync(ID.Text, data);
-            ApplicationEngine.UserTypes.Librarian results = response.ResultAs<ApplicationEngine.UserTypes.Librarian>();
- 
+
+            //SetResponse response = await client.SetTaskAsync(daa.ID.ToString(), daa);
+            //ApplicationEngine.UserTypes.Librarian results = response.ResultAs<ApplicationEngine.UserTypes.Librarian>();
+
+           data.AddAsync("Librarian/"+daa.ID.ToString(), daa);
+
+           
         }
 
         private void ID_TextChanged(object sender, EventArgs e)
@@ -94,5 +100,28 @@ namespace LibrarianAssistant
         {
 
         }
+
+        private async void button1_ClickAsync(object sender, EventArgs e)
+        {
+
+              string search = this.ID.Text.ToString();
+             FirebaseResponse response = await client.GetTaskAsync("Librarian/"+search);
+            ApplicationEngine.UserTypes.Librarian lib = response.ResultAs<ApplicationEngine.UserTypes.Librarian>();
+          //  data.search("Librarian", this.ID.Text.ToString());
+           // ApplicationEngine.UserTypes.Librarian lib = data.GetLibrarian("Librarian", this.ID.Text.ToString());
+         
+            this.ID.Text = lib.ID.ToString();
+            this.FirstName.Text = lib.FirstName.ToString();
+            this.LastName.Text = lib.LastName.ToString();
+            lib = data.GetLibrarian("Librarian", this.ID.Text.ToString());
+         
+        }
+
+        public void dooer()
+        {
+
+    
+        }
+        
     }
 }

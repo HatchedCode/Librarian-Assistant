@@ -28,7 +28,7 @@ namespace LibrarianAssistant
             //AdminMainScreenUI
             //Application.Run(new LibrarianAssistant.Login.Screen.Login());
 
-            // Application.Run(new MainForm());
+             Application.Run(new Login.Screen.Login());
         }
     }
 }

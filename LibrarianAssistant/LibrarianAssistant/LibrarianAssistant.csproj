@@ -58,6 +58,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataBase.cs" />
     <Compile Include="Librarian\CreateLibrarian\CreateLibrarian.cs">
       <SubType>Form</SubType>
     </Compile>

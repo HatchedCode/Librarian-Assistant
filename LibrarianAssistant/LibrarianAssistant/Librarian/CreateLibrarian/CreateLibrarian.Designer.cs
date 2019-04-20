@@ -40,6 +40,7 @@
             this.Password = new System.Windows.Forms.TextBox();
             this.RePasswordText = new System.Windows.Forms.TextBox();
             this.RePassword = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Back
@@ -140,11 +141,22 @@
             this.RePassword.Size = new System.Drawing.Size(100, 22);
             this.RePassword.TabIndex = 12;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(513, 77);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 13;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_ClickAsync);
+            // 
             // CreateLibrarian
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.RePassword);
             this.Controls.Add(this.RePasswordText);
             this.Controls.Add(this.Password);
@@ -179,5 +191,6 @@
         private System.Windows.Forms.TextBox Password;
         private System.Windows.Forms.TextBox RePasswordText;
         private System.Windows.Forms.TextBox RePassword;
+        private System.Windows.Forms.Button button1;
     }
 }

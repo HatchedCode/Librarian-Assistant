@@ -4,13 +4,13 @@ using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
 namespace ApplicationEngine.UserTypes
 {
     internal abstract class User: INotifyPropertyChanged
     {
-        private string name;
-        private uint networkID;
+        private string firstName;
+        private string lastName;
+        private uint iD;
         private string password;
 
         /// <summary>
@@ -18,29 +18,36 @@ namespace ApplicationEngine.UserTypes
         /// </summary>
         public event PropertyChangedEventHandler PropertyChanged = delegate { };
 
-        public User(string name = "", uint networkID = 00000000, string password = "")
+        public User(string firstName = "", string lastName = "", uint networkID = 00000000, string password = "")
         {
             this.password = password;
-            this.name = name;
-            this.networkID = networkID;
+            this.firstName = firstName;
+            this.ID = networkID;
+            this.lastName = lastName;
         }
 
-        public string Name
+        public string FirstName
         {
-            get { return name; }
-            set { this.name = value; }
+            get { return firstName; }
+            set { this.firstName = value; }
         }
 
-        public uint NetworkID
+        public uint ID
         {
-            get { return networkID; }
-            set { this.networkID = value; }
+            get { return iD; }
+            set { this.iD = value; }
         }
 
          public string Password
         {
             get { return password; }
             set { this.password = value; }
+        }
+
+        public string LastName
+        {
+            get { return lastName; }
+            set { lastName = value; }
         }
     }
 }

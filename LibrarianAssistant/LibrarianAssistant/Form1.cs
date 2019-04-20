@@ -51,7 +51,7 @@ namespace LibrarianAssistant
             // 
             // Form1
             // 
-            this.ClientSize = new System.Drawing.Size(886, 432);
+            this.ClientSize = new System.Drawing.Size(149, 14);
             this.Name = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load_1);
             this.ResumeLayout(false);
@@ -60,7 +60,7 @@ namespace LibrarianAssistant
 
         private void Form1_Load_1(object sender, EventArgs e)
         {
-
+            
         }
     }
 }

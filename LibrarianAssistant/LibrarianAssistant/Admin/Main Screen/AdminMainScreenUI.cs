@@ -21,6 +21,11 @@ namespace LibrarianAssistant.Admin.AdminUI
         private void button1_Click(object sender, EventArgs e)
         {
 
+            LibrarianAssistant.CreateLibrarian create = new CreateLibrarian();
+
+            create.ShowDialog();
+
+
         }
 
         private void button2_Click(object sender, EventArgs e)
