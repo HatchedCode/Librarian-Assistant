@@ -8,7 +8,10 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
+
 namespace LibrarianAssistant.Librarian
+    
 {
     public partial class LibrarianMain : Form
     {
@@ -59,6 +62,23 @@ namespace LibrarianAssistant.Librarian
         {
             LibrarianAssistant.Librarian.Checkout check = new Librarian.Checkout();
             check.ShowDialog();
+        }
+
+        private void LibrarianMain_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void AddHolder_Click(object sender, EventArgs e)
+        {
+            AddCardHolder addCH = new AddCardHolder();
+            addCH.ShowDialog();
+        }
+
+        private void SearchUser_Click(object sender, EventArgs e)
+        {
+            SearchUser searchU = new SearchUser();
+            searchU.ShowDialog();
         }
     }
 }

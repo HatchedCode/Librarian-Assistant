@@ -12,6 +12,7 @@ namespace ApplicationEngine.UserTypes
     {
         private bool overDueBooks;
         private ushort numBooksCheckedOut;
+        private List<string> books = new List<string>();
 
         public bool OverDueBooks
         {
@@ -32,6 +33,43 @@ namespace ApplicationEngine.UserTypes
         public Cardholder()
         {
 
+        }
+        
+        public bool AddBook(Book.Book b)
+        {
+            if (books.Contains(b.Title))
+            {
+                return false;
+            }
+            else
+            {
+                books.Add(b.Title);
+                return true;
+            }
+            
+
+            return true;
+        }
+
+        public List<String> Books
+        {
+            get { return this.books; }
+            set { this.books = value; }
+            
+        }
+
+        public bool ReturnBook(Book.Book b)
+        {
+            if (books.Contains(b.Title))
+            {
+                books.Remove(b.Title);
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+            
         }
     }
 }

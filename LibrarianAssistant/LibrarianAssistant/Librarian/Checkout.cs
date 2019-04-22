@@ -42,13 +42,23 @@ namespace LibrarianAssistant.Librarian
 
             ApplicationEngine.Book.Book result = response.ResultAs<ApplicationEngine.Book.Book>();
 
+
+            string searchCH = this.UserId.Text.ToString();
+            FirebaseResponse responseCH = await client.GetTaskAsync("CardHolder/" + searchCH);
+
+            ApplicationEngine.UserTypes.Cardholder resultCH = responseCH.ResultAs<ApplicationEngine.UserTypes.Cardholder>();
+
             if (result.Available > 0)
             {
-                if (result.AddHolder(Convert.ToInt32(this.UserId.Text.ToString())))
+                if (result.AddHolder(Convert.ToInt32(this.UserId.Text.ToString())) && resultCH.AddBook(result))
                 {
                     result.Available -= 1;
                     SetResponse res = await client.SetTaskAsync("Book/" + result.Title, result);
                     Book results = res.ResultAs<Book>();
+
+
+                    SetResponse resCH = await client.SetTaskAsync("CardHolder/" + resultCH.ID, resultCH);
+                    ApplicationEngine.UserTypes.Cardholder resultsCH = resCH.ResultAs<ApplicationEngine.UserTypes.Cardholder>();
                 }
                 else
                 {
@@ -71,12 +81,24 @@ namespace LibrarianAssistant.Librarian
 
             ApplicationEngine.Book.Book result = response.ResultAs<ApplicationEngine.Book.Book>();
 
-            if (result.RemoveHolder(Convert.ToInt32(this.UserId.Text.ToString())))
+            string searchCH = this.UserId.Text.ToString();
+            FirebaseResponse responseCH = await client.GetTaskAsync("CardHolder/" + searchCH);
+
+            ApplicationEngine.UserTypes.Cardholder resultCH = responseCH.ResultAs<ApplicationEngine.UserTypes.Cardholder>();
+
+
+
+
+            if (result.RemoveHolder(Convert.ToInt32(this.UserId.Text.ToString()))&&resultCH.ReturnBook(result))
             {
                
                 result.Available += 1;
                 SetResponse res = await client.SetTaskAsync("Book/" + result.Title, result);
                 Book results = res.ResultAs<Book>();
+                SetResponse resCH = await client.SetTaskAsync("CardHolder/" + resultCH.ID, resultCH);
+
+                ApplicationEngine.UserTypes.Cardholder resulCH = resCH.ResultAs<ApplicationEngine.UserTypes.Cardholder>();
+
             }
             else
             {

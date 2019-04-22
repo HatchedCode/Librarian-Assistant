@@ -26,6 +26,12 @@ namespace LibrarianAssistant.Login.Screen
 
         IFirebaseClient client;
 
+
+         
+    
+
+
+
         public Login()
         {
             // this.userNameInput.Select();
@@ -112,9 +118,13 @@ namespace LibrarianAssistant.Login.Screen
        
             string search = this.userNameInput.Text.ToString();
             FirebaseResponse response = await client.GetTaskAsync(search);
-            // ApplicationEngine.UserTypes.Librarian lib = response.ResultAs<ApplicationEngine.UserTypes.Librarian>();
+            object x = response.GetType();
+            if (response.GetType() is ApplicationEngine.UserTypes.Librarian)
+            {
+                MessageBox.Show("woot");
+            }
             ApplicationEngine.UserTypes.Librarian lib = response.ResultAs<ApplicationEngine.UserTypes.Librarian>();
-
+            
 
 
 
@@ -144,10 +154,7 @@ namespace LibrarianAssistant.Login.Screen
                     MessageBox.Show("else");
                 }
 
-                //min.AdminUI.AdminMainScreenUI admin = new Admin.AdminUI.AdminMainScreenUI();
-                //dmin.ShowDialog();
-
-                //if libraria
+               
             }
 
 
