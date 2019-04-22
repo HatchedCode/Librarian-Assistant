@@ -25,7 +25,8 @@ namespace LibrarianAssistant.Librarian
 
         private void SearchBook_Click(object sender, EventArgs e)
         {
-
+            Librarian.SearchBookcs search = new Librarian.SearchBookcs();
+            search.ShowDialog();
         }
 
         private void button3_Click(object sender, EventArgs e)

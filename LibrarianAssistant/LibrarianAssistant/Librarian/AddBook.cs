@@ -38,7 +38,7 @@ namespace LibrarianAssistant.Librarian
             this.DateText.Text = "Date Released";
             this.GenreText.Text = "Genre";
             this.AvailableText.Text = "Number Available";
-            this.CHText.Text = "CurrentHolders";
+        
             this.Submit.Text = "Submit Changes";
             this.Back.Text = "previouse Page";
 

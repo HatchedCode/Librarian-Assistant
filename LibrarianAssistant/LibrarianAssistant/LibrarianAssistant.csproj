@@ -104,6 +104,12 @@
     <Compile Include="Librarian\LibrarianMain.Designer.cs">
       <DependentUpon>LibrarianMain.cs</DependentUpon>
     </Compile>
+    <Compile Include="Librarian\SearchBookcs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Librarian\SearchBookcs.Designer.cs">
+      <DependentUpon>SearchBookcs.cs</DependentUpon>
+    </Compile>
     <Compile Include="Librarian\ViewUsers\ViewUsers.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -147,6 +153,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Librarian\LibrarianMain.resx">
       <DependentUpon>LibrarianMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Librarian\SearchBookcs.resx">
+      <DependentUpon>SearchBookcs.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login\Screen\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
