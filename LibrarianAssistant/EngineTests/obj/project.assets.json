@@ -5797,23 +5797,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\pauld\\.nuget\\packages\\": {},
+    "C:\\Users\\Osman Bakari\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pauld\\OneDrive\\Desktop\\cpts\\gitKracken\\librarian-assistant\\LibrarianAssistant\\EngineTests\\EngineTests.csproj",
+      "projectUniqueName": "C:\\Users\\Osman Bakari\\Desktop\\Current Courses\\Cpts 322 (Software Engineering Principles)\\Project\\librarian-assistant\\LibrarianAssistant\\EngineTests\\EngineTests.csproj",
       "projectName": "EngineTests",
-      "projectPath": "C:\\Users\\pauld\\OneDrive\\Desktop\\cpts\\gitKracken\\librarian-assistant\\LibrarianAssistant\\EngineTests\\EngineTests.csproj",
-      "packagesPath": "C:\\Users\\pauld\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pauld\\OneDrive\\Desktop\\cpts\\gitKracken\\librarian-assistant\\LibrarianAssistant\\EngineTests\\obj\\",
+      "projectPath": "C:\\Users\\Osman Bakari\\Desktop\\Current Courses\\Cpts 322 (Software Engineering Principles)\\Project\\librarian-assistant\\LibrarianAssistant\\EngineTests\\EngineTests.csproj",
+      "packagesPath": "C:\\Users\\Osman Bakari\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Osman Bakari\\Desktop\\Current Courses\\Cpts 322 (Software Engineering Principles)\\Project\\librarian-assistant\\LibrarianAssistant\\EngineTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\pauld\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Osman Bakari\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5826,8 +5826,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\pauld\\OneDrive\\Desktop\\cpts\\gitKracken\\librarian-assistant\\LibrarianAssistant\\ApplicationEngine\\ApplicationEngine.csproj": {
-              "projectPath": "C:\\Users\\pauld\\OneDrive\\Desktop\\cpts\\gitKracken\\librarian-assistant\\LibrarianAssistant\\ApplicationEngine\\ApplicationEngine.csproj"
+            "C:\\Users\\Osman Bakari\\Desktop\\Current Courses\\Cpts 322 (Software Engineering Principles)\\Project\\librarian-assistant\\LibrarianAssistant\\ApplicationEngine\\ApplicationEngine.csproj": {
+              "projectPath": "C:\\Users\\Osman Bakari\\Desktop\\Current Courses\\Cpts 322 (Software Engineering Principles)\\Project\\librarian-assistant\\LibrarianAssistant\\ApplicationEngine\\ApplicationEngine.csproj"
             }
           }
         }

@@ -10,18 +10,13 @@ using FireSharp.Response;
 
 namespace ApplicationEngine
 {
-
-    
-
-
-
     class DataBase
     {
 
         private UserTypes.Librarian lib = new UserTypes.Librarian();
        
      
-        IFirebaseConfig config = new FirebaseConfig
+        private IFirebaseConfig config = new FirebaseConfig
         {
             AuthSecret = "AzjbyoyIlfvOFVzasWvFtWd9qUquxgEk2RNIWfXW",
             BasePath = "https://libraryassistantv1.firebaseio.com/"

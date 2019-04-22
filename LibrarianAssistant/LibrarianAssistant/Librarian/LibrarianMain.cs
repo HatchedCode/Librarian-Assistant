@@ -15,6 +15,26 @@ namespace LibrarianAssistant.Librarian
         public LibrarianMain()
         {
             InitializeComponent();
+            this.label1.Font = new Font("Arial", 24, FontStyle.Bold);
+            this.label1.Text = "Main Menu";
+
+            this.label1.Font = new Font("Arial", 18, FontStyle.Bold);
+            this.loggedInUserNameLabel.Text = "Welcome, " + "Zane";
+
+            this.BackColor = Color.White;
+
+            this.SearchBook.BackColor = Color.FromArgb(152, 30, 50);
+            this.SearchBook.ForeColor = Color.White;
+
+            this.addbook.BackColor = Color.FromArgb(152, 30, 50);
+            this.addbook.ForeColor = Color.White;
+
+            this.Checkout.BackColor = Color.FromArgb(152, 30, 50);
+            this.Checkout.ForeColor = Color.White;
+
+            this.editBookButton.BackColor = Color.FromArgb(152, 30, 50);
+            this.editBookButton.ForeColor = Color.White;
+
         }
 
         private void addbook_Click(object sender, EventArgs e)
