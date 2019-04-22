@@ -28,19 +28,19 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AdminUI.AdminMainScreenUI));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.AddAdmin = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::LibrarianAssistant.Properties.Resources.admin; //  ((System.Drawing.Image)(resources.GetObject("admin.Image"))); // .GetObject("admin.Image")));
+            this.pictureBox1.Image = global::LibrarianAssistant.Properties.Resources.admin;
             this.pictureBox1.Location = new System.Drawing.Point(67, 58);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(299, 299);
@@ -89,14 +89,25 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Administrator";
             // 
-            // Form1
+            // AddAdmin
+            // 
+            this.AddAdmin.Location = new System.Drawing.Point(705, 113);
+            this.AddAdmin.Name = "AddAdmin";
+            this.AddAdmin.Size = new System.Drawing.Size(75, 23);
+            this.AddAdmin.TabIndex = 5;
+            this.AddAdmin.Text = "Add Admin";
+            this.AddAdmin.UseVisualStyleBackColor = true;
+            this.AddAdmin.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // AdminMainScreenUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.AddAdmin);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.pictureBox1);
-            this.Name = "Form1";
+            this.Name = "AdminMainScreenUI";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupBox1.ResumeLayout(false);
@@ -111,6 +122,7 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.Button AddAdmin;
     }
 }
 

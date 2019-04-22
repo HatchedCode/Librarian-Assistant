@@ -71,17 +71,20 @@ namespace LibrarianAssistant
         {
             ApplicationEngine.UserTypes.Librarian daa = new ApplicationEngine.UserTypes.Librarian
             {
+                
                 FirstName = FirstName.Text,
                 LastName = LastName.Text,
                 ID = Convert.ToUInt32( ID.Text),
                 Password = Password.Text
+                
+                
             };
-
+            daa.Level = 0;
 
             //SetResponse response = await client.SetTaskAsync(daa.ID.ToString(), daa);
             //ApplicationEngine.UserTypes.Librarian results = response.ResultAs<ApplicationEngine.UserTypes.Librarian>();
 
-           data.AddAsync("Librarian/"+daa.ID.ToString(), daa);
+           data.AddAsync(daa.ID.ToString(), daa);
 
            
         }
@@ -105,7 +108,7 @@ namespace LibrarianAssistant
         {
 
               string search = this.ID.Text.ToString();
-             FirebaseResponse response = await client.GetTaskAsync("Librarian/"+search);
+             FirebaseResponse response = await client.GetTaskAsync(search);
             ApplicationEngine.UserTypes.Librarian lib = response.ResultAs<ApplicationEngine.UserTypes.Librarian>();
           //  data.search("Librarian", this.ID.Text.ToString());
            // ApplicationEngine.UserTypes.Librarian lib = data.GetLibrarian("Librarian", this.ID.Text.ToString());

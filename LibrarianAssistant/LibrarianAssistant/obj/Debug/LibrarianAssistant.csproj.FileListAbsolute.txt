@@ -48,3 +48,4 @@ C:\Users\pauld\OneDrive\Desktop\cpts\gitKracken\librarian-assistant\LibrarianAss
 C:\Users\pauld\OneDrive\Desktop\cpts\gitKracken\librarian-assistant\LibrarianAssistant\LibrarianAssistant\obj\Debug\LibrarianAssistant.csproj.CopyComplete
 C:\Users\pauld\OneDrive\Desktop\cpts\gitKracken\librarian-assistant\LibrarianAssistant\LibrarianAssistant\obj\Debug\LibrarianAssistant.exe
 C:\Users\pauld\OneDrive\Desktop\cpts\gitKracken\librarian-assistant\LibrarianAssistant\LibrarianAssistant\obj\Debug\LibrarianAssistant.pdb
+C:\Users\pauld\OneDrive\Desktop\cpts\gitKracken\librarian-assistant\LibrarianAssistant\LibrarianAssistant\obj\Debug\LibrarianAssistant.Librarian.LibrarianMain.resources

@@ -8,10 +8,23 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+using FireSharp.Config;
+using FireSharp.Interfaces;
+using FireSharp.Response;
+
 namespace LibrarianAssistant.Admin.CreateAdmin
 {
     public partial class CreateAdmin : Form
     {
+
+        IFirebaseConfig config = new FirebaseConfig
+        {
+            AuthSecret = "AzjbyoyIlfvOFVzasWvFtWd9qUquxgEk2RNIWfXW",
+            BasePath = "https://libraryassistantv1.firebaseio.com/"
+        };
+
+        IFirebaseClient client;
+
         public CreateAdmin()
         {
             InitializeComponent();
@@ -22,6 +35,8 @@ namespace LibrarianAssistant.Admin.CreateAdmin
 
         private void CreateAdmin_Load(object sender, EventArgs e)
         {
+
+            client = new FireSharp.FirebaseClient(config);
             this.BackColor = Color.White;
         }
 
@@ -30,7 +45,7 @@ namespace LibrarianAssistant.Admin.CreateAdmin
 
         }
 
-            private void registerButton_Click(object sender, EventArgs e)
+            private async void registerButton_ClickAsync(object sender, EventArgs e)
         {
             // Check each field
             // Check passwords
@@ -46,10 +61,42 @@ namespace LibrarianAssistant.Admin.CreateAdmin
 
             // Check Network ID is valid 8/9 digit ID number
 
+            ApplicationEngine.UserTypes.Librarian daa = new ApplicationEngine.UserTypes.Librarian
+            {
+
+                FirstName = this.textBox1.Text,
+                LastName = this.textBox2.Text,
+                ID = Convert.ToUInt32(this.textBox3.Text),
+                Password = this.textBox4.Text
+
+
+            };
+            daa.Level = Convert.ToInt32( this.comboBox1.Text.ToString());
+
+
+            SetResponse response = await client.SetTaskAsync(daa.ID.ToString(), daa);
+            ApplicationEngine.UserTypes.Librarian results = response.ResultAs<ApplicationEngine.UserTypes.Librarian>();
+
 
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+           
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
         {
 
         }

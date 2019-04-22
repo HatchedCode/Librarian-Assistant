@@ -37,5 +37,12 @@ namespace LibrarianAssistant.Admin.AdminUI
         {
 
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            CreateAdmin.CreateAdmin create = new CreateAdmin.CreateAdmin();
+
+            create.ShowDialog();
+        }
     }
 }

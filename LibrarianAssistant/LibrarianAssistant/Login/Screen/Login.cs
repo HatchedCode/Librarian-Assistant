@@ -111,24 +111,42 @@ namespace LibrarianAssistant.Login.Screen
 
        
             string search = this.userNameInput.Text.ToString();
-            FirebaseResponse response = await client.GetTaskAsync("Librarian/" + search);
+            FirebaseResponse response = await client.GetTaskAsync(search);
+            // ApplicationEngine.UserTypes.Librarian lib = response.ResultAs<ApplicationEngine.UserTypes.Librarian>();
             ApplicationEngine.UserTypes.Librarian lib = response.ResultAs<ApplicationEngine.UserTypes.Librarian>();
 
 
-            
 
 
 
-            if (lib.Password != this.passwordInput.Text.ToString())
+
+            if (((ApplicationEngine.UserTypes.User)lib).Password != this.passwordInput.Text.ToString())
             {
                 MessageBox.Show("incorrect password");
             }
             else
             {
                 //if admin
-                Admin.AdminUI.AdminMainScreenUI admin = new Admin.AdminUI.AdminMainScreenUI();
-                admin.ShowDialog();
-               
+                if (lib.Level > 0) {
+                    Admin.AdminUI.AdminMainScreenUI admin = new Admin.AdminUI.AdminMainScreenUI();
+                    admin.ShowDialog();
+
+                    MessageBox.Show("Admin");
+                }
+                else if (lib.Level==0)
+                {
+                    Librarian.LibrarianMain library = new Librarian.LibrarianMain();
+                    library.ShowDialog();
+                }
+                else
+                {
+
+                    MessageBox.Show("else");
+                }
+
+                //min.AdminUI.AdminMainScreenUI admin = new Admin.AdminUI.AdminMainScreenUI();
+                //dmin.ShowDialog();
+
                 //if libraria
             }
 

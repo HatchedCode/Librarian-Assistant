@@ -8,9 +8,18 @@ namespace ApplicationEngine.UserTypes
 {
     internal partial class Librarian : User
     {
-        private bool isLibrarian;
+       // private int isLibrarian= 0;
 
-        
+        public int level = 0;
+
+
+        public int Level
+        {
+            get { return this.level; }
+            set { this.level = value; }
+
+        }
+
 
 
     }
