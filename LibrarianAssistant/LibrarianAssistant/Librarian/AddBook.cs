@@ -46,7 +46,7 @@ namespace LibrarianAssistant.Librarian
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private async void button1_ClickAsync(object sender, EventArgs e)
         {
             var data = new Book
             {
@@ -56,8 +56,12 @@ namespace LibrarianAssistant.Librarian
                 Date = Date.Text,
                 Genre = Genre.Text,
                 Available = Convert.ToInt32(Available.Text)
+                
 
             };
+       
+            SetResponse response = await client.SetTaskAsync("Book/" + Title.Text, data);
+            Book results = response.ResultAs<Book>();
         }
 
         private void AddBook_Load(object sender, EventArgs e)

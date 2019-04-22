@@ -30,8 +30,6 @@
         {
             this.Submit = new System.Windows.Forms.Button();
             this.Back = new System.Windows.Forms.Button();
-            this.CardHolder = new System.Windows.Forms.TextBox();
-            this.CHText = new System.Windows.Forms.TextBox();
             this.Available = new System.Windows.Forms.TextBox();
             this.AvailableText = new System.Windows.Forms.TextBox();
             this.Genre = new System.Windows.Forms.TextBox();
@@ -54,7 +52,7 @@
             this.Submit.TabIndex = 32;
             this.Submit.Text = "submit";
             this.Submit.UseVisualStyleBackColor = true;
-            this.Submit.Click += new System.EventHandler(this.button1_Click);
+            this.Submit.Click += new System.EventHandler(this.button1_ClickAsync);
             // 
             // Back
             // 
@@ -64,23 +62,6 @@
             this.Back.TabIndex = 31;
             this.Back.Text = "button1";
             this.Back.UseVisualStyleBackColor = true;
-            // 
-            // CardHolder
-            // 
-            this.CardHolder.Location = new System.Drawing.Point(326, 315);
-            this.CardHolder.Multiline = true;
-            this.CardHolder.Name = "CardHolder";
-            this.CardHolder.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.CardHolder.Size = new System.Drawing.Size(225, 123);
-            this.CardHolder.TabIndex = 30;
-            // 
-            // CHText
-            // 
-            this.CHText.Location = new System.Drawing.Point(173, 315);
-            this.CHText.Name = "CHText";
-            this.CHText.ReadOnly = true;
-            this.CHText.Size = new System.Drawing.Size(100, 22);
-            this.CHText.TabIndex = 29;
             // 
             // Available
             // 
@@ -181,8 +162,6 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.Submit);
             this.Controls.Add(this.Back);
-            this.Controls.Add(this.CardHolder);
-            this.Controls.Add(this.CHText);
             this.Controls.Add(this.Available);
             this.Controls.Add(this.AvailableText);
             this.Controls.Add(this.Genre);
@@ -207,8 +186,6 @@
 
         private System.Windows.Forms.Button Submit;
         private System.Windows.Forms.Button Back;
-        private System.Windows.Forms.TextBox CardHolder;
-        private System.Windows.Forms.TextBox CHText;
         private System.Windows.Forms.TextBox Available;
         private System.Windows.Forms.TextBox AvailableText;
         private System.Windows.Forms.TextBox Genre;

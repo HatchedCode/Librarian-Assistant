@@ -14,7 +14,7 @@ namespace ApplicationEngine.Book
         private string date;
         private string genre;
         private int available;
-        // private List<cardholder> holders;
+         private List<int> holders;
 
 
         public Book()
@@ -25,6 +25,7 @@ namespace ApplicationEngine.Book
             date = "";
             genre = "";
             available = 0;
+            holders = new List<int>();
 
         }
 
@@ -98,8 +99,38 @@ namespace ApplicationEngine.Book
             {
                 available = value;
             }
-
-
         }
+        public List<int> Holder
+        {
+            get { return holders; }
+            set { this.holders = value; }
+        }
+
+        public bool AddHolder(int id)
+        {
+            if (holders.Contains(id))
+            {
+                return false;
+            }
+            else
+            {
+                holders.Add(id);
+                return true;
+            }
+        }
+
+        public bool RemoveHolder(int id)
+        {
+            if (holders.Contains(id))
+            {
+                holders.Remove(id);
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+        
     }
 }

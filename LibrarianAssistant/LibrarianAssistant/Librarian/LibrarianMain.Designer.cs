@@ -31,6 +31,7 @@
             this.SearchBook = new System.Windows.Forms.Button();
             this.addbook = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
+            this.Checkout = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // SearchBook
@@ -63,11 +64,22 @@
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
+            // Checkout
+            // 
+            this.Checkout.Location = new System.Drawing.Point(83, 200);
+            this.Checkout.Name = "Checkout";
+            this.Checkout.Size = new System.Drawing.Size(216, 23);
+            this.Checkout.TabIndex = 3;
+            this.Checkout.Text = "Checkout/Return";
+            this.Checkout.UseVisualStyleBackColor = true;
+            this.Checkout.Click += new System.EventHandler(this.Checkout_Click);
+            // 
             // LibrarianMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.Checkout);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.addbook);
             this.Controls.Add(this.SearchBook);
@@ -82,5 +94,6 @@
         private System.Windows.Forms.Button SearchBook;
         private System.Windows.Forms.Button addbook;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button Checkout;
     }
 }

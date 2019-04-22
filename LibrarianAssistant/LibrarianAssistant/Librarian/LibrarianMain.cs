@@ -30,8 +30,14 @@ namespace LibrarianAssistant.Librarian
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Librarian.LibrarianMain library = new Librarian.LibrarianMain();
-            library.ShowDialog();
+            LibrarianAssistant.EditBook edit = new EditBook();
+            edit.ShowDialog();
+        }
+
+        private void Checkout_Click(object sender, EventArgs e)
+        {
+            LibrarianAssistant.Librarian.Checkout check = new Librarian.Checkout();
+            check.ShowDialog();
         }
     }
 }
