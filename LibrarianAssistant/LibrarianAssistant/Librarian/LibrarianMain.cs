@@ -73,7 +73,7 @@ namespace LibrarianAssistant.Librarian
         {
             AddCardHolder addCH = new AddCardHolder();
             addCH.ShowDialog();
-        }
+        } 
 
         private void SearchUser_Click(object sender, EventArgs e)
         {
